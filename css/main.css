@@ -1,5 +1,11 @@
+canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+  }
+
 body {
-    background-color: #1c1416;
+    background-color: #1f1212;
     font-family: 'Overpass', sans-serif;
     font-weight: bold;
     font-size: 1.3rem;
@@ -22,8 +28,48 @@ body {
 }
 
 a:hover {
-text-decoration: none;
+    text-decoration: none;
 }
+
+ul { 
+    display: table;
+  }
+  li { 
+    display: table-cell; 
+  }
+  a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    margin: 15px 20px;
+    padding-bottom: 15px;;
+    position: relative;
+  }
+  a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  @media screen and (max-height: 300px) {
+      ul {
+          margin-top: 40px;
+      }
+  }
+  
 
 .motion {
     font-family: 'Berkshire Swash', cursive;
@@ -34,5 +80,7 @@ text-decoration: none;
 
 .greeting {
     font-size: 120%;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
 }
 
