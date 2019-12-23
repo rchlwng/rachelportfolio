@@ -1,6 +1,7 @@
 body {
-    background-color: #393637;
-    font-family: "Helvetica Neue";
+    background-color: #221f20;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
     font-size: 1.3rem;
 }
 
@@ -25,8 +26,8 @@ text-decoration: none;
 }
 
 .motion {
-    font-family: "HelveticaNeue";
-    font-size: 350%;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 300%;
     text-align: center;
     display: inline-block;
 }
