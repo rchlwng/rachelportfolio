@@ -1,14 +1,14 @@
 body {
     background-color: #393637;
     font-family: "Helvetica Neue";
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .rachellogo {
     position: absolute;
     margin: auto;
-    max-width: 30%;
-    max-height: 30%;
+    max-width: 25%;
+    max-height: 25%;
     top: 0;
     right: 0;
     bottom: 0;
@@ -22,5 +22,16 @@ body {
 
 a:hover {
 text-decoration: none;
+}
+
+.motion {
+    font-family: "HelveticaNeue";
+    font-size: 350%;
+    text-align: center;
+    display: inline-block;
+}
+
+.greeting {
+    font-size: 120%;
 }
 
