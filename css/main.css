@@ -98,3 +98,9 @@ ul {
     animation-fill-mode: both;
     animation-name: fadeIn;
 }
+
+.pagetitle {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 290%;
+    padding-bottom: 5%;
+}

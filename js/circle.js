@@ -5,5 +5,5 @@ anime({
     loop: true,
     rotateZ: 360,
     easing: 'linear',
-    duration: 6000
+    duration: 8000
 });
