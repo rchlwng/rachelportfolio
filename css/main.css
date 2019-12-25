@@ -81,3 +81,20 @@ ul {
     margin: 0;
     font-size: 110%;
 }
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animateme {
+    animation-duration: 2s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
