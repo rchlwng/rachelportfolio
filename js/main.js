@@ -14,3 +14,4 @@ anime.timeline({autoplay: true})
     delay: (el, i) => 70*i
 });
 
+
