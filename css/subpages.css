@@ -1,19 +1,9 @@
 body {
-    background-color: #191212;
+    background-color: #ffffff;
     font-family: 'Overpass', sans-serif;
     font-weight: bold;
     font-size: 1.3rem;
-}
-
-.rachellogo {
-    position: absolute;
-    margin: auto;
-    max-width: 25%;
-    max-height: 25%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    color: #191212;
 }
 
 .navbar {
@@ -32,7 +22,7 @@ ul {
     display: table-cell; 
   }
   a {
-    color: #fff;
+    color: #191212;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
@@ -50,7 +40,7 @@ ul {
     height: 2px;
     left: 50%;
     position: absolute;
-    background: #fff;
+    background: #191212;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
   }
@@ -74,12 +64,12 @@ ul {
 
 .greeting {
     font-size: 120%;
-    font-family: 'Berkshire Swash', cursive;
 }
 
 #rotating {
     margin: 0;
     font-size: 110%;
+    color: #191212;
 }
 
 @keyframes fadeIn {
@@ -133,6 +123,8 @@ ul {
     }
 }
 
-.border {
-    border-width: 3px !important;
+.figure-caption {
+    color: #191212;
+    letter-spacing: 0.10em;
+    font-family: 'Berkshire Swash', cursive;
 }
