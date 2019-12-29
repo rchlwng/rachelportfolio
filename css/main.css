@@ -60,12 +60,11 @@ a:hover:after {
     width: 100%; 
     left: 0; 
 }
-@media (max-width: 450px) {
-    .navlinks {
+@media (max-width: 767px) {
+    .navbar-nav li {
+        padding: 0;
         margin: 0;
-    }
-    a:after {
-        position: relative;
+        width: 50%;
     }
 }
   
