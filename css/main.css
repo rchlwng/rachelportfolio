@@ -62,9 +62,9 @@ a:hover:after {
 }
 @media (max-width: 767px) {
     .navbar-nav li {
+        display: inline;
         padding: 0;
         margin: 0;
-        width: 20%;
     }
 }
   
