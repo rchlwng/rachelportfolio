@@ -65,6 +65,9 @@ display: table-cell;
   }
 
 @media (max-width: 767px) {
+    body {
+        font-size: 3vw;;
+    }
     a {
         margin: 0;
     }
