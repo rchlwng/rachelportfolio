@@ -17,10 +17,10 @@ a:hover {
 
 ul { 
     display: table;
-  }
-  li { 
+}
+li { 
     display: table-cell; 
-  }
+}
   a {
     color: #191212;
     text-transform: uppercase;
@@ -53,6 +53,28 @@ ul {
           margin-top: 40px;
       }
   }
+
+@media (max-width: 767px) {
+    body {
+        font-size: 2vw;
+    }
+    a {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 15px;
+        margin: 0;
+    }
+    ul {
+        width: 100%;
+        display: block;
+    }
+    .navbar-nav li {
+        float: left;
+        width: 20%;
+        padding: 0;
+        margin: 0;
+    }
+}
   
 
 .motion {
@@ -104,23 +126,12 @@ ul {
     column-width: 50%; }
     .gallery .pics {
         -webkit-transition: all 350ms ease;
-        transition: all 350ms ease; 
+        transition: all 350ms ease;
     }
     .gallery .animation {
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1); 
-}
-
-@media (max-width: 450px) {
-    .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-    }
 }
 
 .figure-caption {
@@ -141,4 +152,20 @@ ul {
     padding-right: 18%;
     z-index: -1;
     transition: .5s ease-in-out;
+}
+
+.cslink:hover:after {
+    width: 30%;
+    left: 0;
+}
+
+@media (max-width: 450px) {
+    .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+    }
 }
