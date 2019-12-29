@@ -55,9 +55,6 @@ li {
   }
 
 @media (max-width: 767px) {
-    body {
-        font-size: 2vw;
-    }
     a {
         padding-right: 0;
         padding-left: 0;
@@ -74,18 +71,6 @@ li {
         padding: 0;
         margin: 0;
     }
-}
-  
-
-.motion {
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 290%;
-    text-align: center;
-    display: inline-block;
-}
-
-.greeting {
-    font-size: 120%;
 }
 
 #rotating {
