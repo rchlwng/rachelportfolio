@@ -69,10 +69,12 @@ display: table-cell;
         margin: 0;
     }
     ul {
+        width: 100%;
         display: block;
     }
     .navbar-nav li {
-        display: inline;
+        float: left;
+        width: 30%;
         padding: 0;
         margin: 0;
     }
