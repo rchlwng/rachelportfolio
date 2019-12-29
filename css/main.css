@@ -73,8 +73,9 @@ ul {
 }
 
 .greeting {
-    font-size: 120%;
-    font-family: 'Berkshire Swash', cursive;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
 }
 
 #rotating {
