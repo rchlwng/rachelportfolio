@@ -128,3 +128,17 @@ ul {
     letter-spacing: 0.10em;
     font-family: 'Berkshire Swash', cursive;
 }
+
+.casestudies {
+    letter-spacing: .10em;
+}
+
+.csimage {
+    opacity: 0%;
+    right: 0;
+    height: 60%;
+    width: auto;
+    padding-right: 18%;
+    z-index: -1;
+    transition: .5s ease-in-out;
+}

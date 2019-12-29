@@ -2,14 +2,14 @@ body {
     background-color: #191212;
     font-family: 'Overpass', sans-serif;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 2vw;
 }
 
 .rachellogo {
     position: absolute;
     margin: auto;
-    max-width: 25%;
-    max-height: 25%;
+    width: 30vw;
+    height: auto;
     top: 0;
     right: 0;
     bottom: 0;
@@ -19,30 +19,32 @@ body {
 .navbar {
     margin-top: 2%;
     padding-bottom: 2%;
+    text-align: center;
 }
 
 a:hover {
     text-decoration: none;
 }
 
-ul { 
-    display: table;
-  }
-  li { 
-    display: table-cell; 
-  }
-  a {
+ul {
+    padding-inline-start: 0%;
+    margin: auto;
+}
+li { 
+    display: inline-block; 
+}
+a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 0.15em;
-    
+
     display: inline-block;
-    margin: 15px 20px;
+    margin: auto;
     padding-bottom: 15px;;
     position: relative;
-  }
-  a:after {    
+}
+a:after {    
     background: none repeat scroll 0 0 transparent;
     bottom: 0;
     content: "";
@@ -53,10 +55,11 @@ ul {
     background: #fff;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
-  }
-  a:hover:after { 
+}
+a:hover:after { 
     width: 100%; 
     left: 0; 
+<<<<<<< HEAD
   }
   @media screen and (max-height: 300px) {
       ul {
@@ -65,22 +68,36 @@ ul {
   }
 
   @media (max-width: 767px) {
+=======
+}
+@media (max-width: 767px) {
+>>>>>>> d71fc033e76c2c05d6563455fd1bb24d77743445
     .navbar-nav li {
         display: inline-block;
         padding: 0;
         margin: 0;
     }
 }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> d71fc033e76c2c05d6563455fd1bb24d77743445
 
 .motion {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 290%;
+    font-size: 3vw;
     text-align: center;
     display: inline-block;
 }
 
 .greeting {
+<<<<<<< HEAD
     font-size: 120%;
+=======
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+>>>>>>> d71fc033e76c2c05d6563455fd1bb24d77743445
 }
 
 #rotating {
