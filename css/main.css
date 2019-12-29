@@ -8,8 +8,8 @@ body {
 .rachellogo {
     position: absolute;
     margin: auto;
-    max-width: 25%;
-    max-height: 25%;
+    width: 30vw;
+    height: auto;
     top: 0;
     right: 0;
     bottom: 0;
@@ -19,6 +19,7 @@ body {
 .navbar {
     margin-top: 2%;
     padding-bottom: 2%;
+    text-align: center;
 }
 
 a:hover {
