@@ -69,7 +69,7 @@ display: table-cell;
         display: block;
     }
     .navbar-nav li {
-        display: inline-block;
+        width: 30%;
         padding: 0;
         margin: 0;
     }
