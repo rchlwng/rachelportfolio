@@ -65,9 +65,6 @@ display: table-cell;
   }
 
 @media (max-width: 767px) {
-    a {
-        margin: 0;
-    }
     ul {
         width: 100%;
         display: block;
