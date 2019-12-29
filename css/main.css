@@ -2,7 +2,7 @@ body {
     background-color: #191212;
     font-family: 'Overpass', sans-serif;
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 2vw;
 }
 
 .rachellogo {
@@ -67,7 +67,7 @@ ul {
 
 .motion {
     font-family: 'Berkshire Swash', cursive;
-    font-size: 290%;
+    font-size: 3vw;
     text-align: center;
     display: inline-block;
 }
