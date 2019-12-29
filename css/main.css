@@ -64,6 +64,9 @@ a:hover:after {
     .navlinks {
         margin: 0;
     }
+    a:after {
+        position: relative;
+    }
 }
   
 
