@@ -19,6 +19,6 @@
 
 @media (max-width: 450px) {
     .csimage {
-        opacity: 0;
+        display: none;
     }
 }
