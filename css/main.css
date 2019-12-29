@@ -60,9 +60,9 @@ a:hover:after {
     width: 100%; 
     left: 0; 
 }
-@media (max-width: 640px) {
-    a {
-        margin: auto;
+@media (max-width: 450px) {
+    .navlinks {
+        margin: 0;
     }
 }
   
