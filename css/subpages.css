@@ -54,27 +54,6 @@ li {
       }
   }
 
-@media (max-width: 767px) {
-    body {
-        font-size: 2vw;
-    }
-    a {
-        padding-right: 0;
-        padding-left: 0;
-        padding-bottom: 15px;
-        margin: 0;
-    }
-    ul {
-        width: 100%;
-        display: block;
-    }
-    .navbar-nav li {
-        width: 30%;
-        padding: 0;
-        margin: 0;
-    }
-}
-
 #rotating {
     margin: 0;
     font-size: 110%;
