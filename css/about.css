@@ -31,14 +31,19 @@ h3 {
     text-transform: uppercase;
     float: left;
     writing-mode: vertical-lr;
-    font-size: 140%;
+    font-weight: bold;
     padding: 0;
+    letter-spacing: 0.15em;
 }
 
 .loves {
     display: block;
     float: left;
-    font-size: 90%;
+    font-size: 80%;
+}
+
+h4 {
+    font-weight: bold;
 }
 
 .favoriteslist {
@@ -46,6 +51,7 @@ h3 {
 }
 
 .earwormtitle {
+    letter-spacing: unset;
     writing-mode: unset;
 }
 
