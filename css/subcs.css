@@ -21,6 +21,10 @@ p {
         width: 100%;
         display: block;
     }
+    a {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
     .navbar-nav li {
         float: left;
         width: 20%;
