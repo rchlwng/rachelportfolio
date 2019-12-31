@@ -69,4 +69,10 @@ p {
     body {
         font-size: 2vw;
     }
+    h3 {
+        font-size: 1vw;
+    }
+    h4 {
+        font-size: .8vw;
+    }
 }
