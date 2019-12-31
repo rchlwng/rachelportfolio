@@ -1,0 +1,58 @@
+
+.musiccarousel {
+    width: 35%;
+    margin-bottom: 5vw;
+}
+
+.carousel-control-prev:hover:after {
+    width: 0;
+}
+
+.carousel-caption {
+    padding-left: 2vw;
+    padding-bottom: 0;
+    left: 0;
+    text-align: left;
+}
+
+.carousel-caption > h5 {
+    font-size: 80%;
+    text-shadow: 2px 2px 4px black;
+    line-height: 90%;
+}
+
+.carousel-caption > p {
+    font-size: 60%;
+    text-shadow: 2px 2px 4px black;
+    line-height: 90%;
+}
+
+h3 {
+    text-transform: uppercase;
+    float: left;
+    writing-mode: vertical-lr;
+    font-size: 140%;
+    padding: 0;
+}
+
+.loves {
+    display: block;
+    float: left;
+    font-size: 90%;
+}
+
+.favoriteslist {
+    width: 150%;
+}
+
+.earwormtitle {
+    writing-mode: unset;
+}
+
+p {
+    font-size: 90%;
+}
+
+.flex-row {
+    padding-bottom: 2%;
+}
