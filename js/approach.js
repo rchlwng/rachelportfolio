@@ -1,0 +1,3 @@
+function hideInstruction() {
+    $('.instructiondesktop').hide();
+}

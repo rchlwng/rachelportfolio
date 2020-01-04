@@ -6,11 +6,39 @@ h3 {
     font-size: 150%;
     padding: 0;
     letter-spacing: 0.15em;
-    height: 20%;
+    height: 15%;
 }
 
 p {
     font-size: 80%;
+}
+
+.casestudy {
+    width: 80%;
+    margin-bottom: 5vw;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  visibility: hidden;
+}
+
+
+.carousel-control-prev:hover:after {
+    width: 0;
+}
+
+.carousel-control-next:hover:after {
+    width: 0;
+}
+
+.instructiondesktop {
+    padding-top: 1vw;
+    font-size: 1vw;
+}
+
+.instructionmobile {
+    visibility: hidden;
 }
 
 @media (max-width: 767px) {
@@ -31,4 +59,10 @@ p {
         float: left;
         width: 20%;
     }
+
+    .instructionmobile {
+        padding-top: 1vw;
+        visibility: visible;
+    }
 }
+
