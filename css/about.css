@@ -70,6 +70,9 @@ p {
     body {
         font-size: 2vw;
     }
+    .musiccarousel {
+        width: 75%;
+    }
 }
 
 .resume {
