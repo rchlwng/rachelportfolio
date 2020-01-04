@@ -64,5 +64,9 @@ p {
         padding-top: 1vw;
         visibility: visible;
     }
+
+    .instructiondesktop {
+        visibility: hidden;
+    }
 }
 
