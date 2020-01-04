@@ -77,6 +77,9 @@ p {
     .musiccarousel {
         width: 75%;
     }
+    h5 {
+        font-size: 1.5vw;
+    }
 }
 
 .resume {
