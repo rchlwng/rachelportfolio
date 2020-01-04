@@ -8,6 +8,10 @@
     width: 0;
 }
 
+.carousel-control-next:hover:after {
+    width: 0;
+}
+
 .carousel-caption {
     padding-left: 2vw;
     padding-bottom: 0;
