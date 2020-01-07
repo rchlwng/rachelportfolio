@@ -70,3 +70,7 @@ p {
     }
 }
 
+.backarrow:hover:after {
+    width: 0;
+}
+
