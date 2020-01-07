@@ -68,6 +68,9 @@ p {
     .instructiondesktop {
         visibility: hidden;
     }
+    .backarrow {
+        top: 15%;
+    }
 }
 
 .backarrow:hover:after {
