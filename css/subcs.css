@@ -60,7 +60,12 @@ p {
         float: left;
         width: 20%;
     }
+    .backarrow {
+        top: 20%;
+    }
+}
 
+@media (max-width: 450) {
     .instructionmobile {
         padding-top: 1vw;
         visibility: visible;
@@ -68,9 +73,6 @@ p {
 
     .instructiondesktop {
         visibility: hidden;
-    }
-    .backarrow {
-        top: 20%;
     }
 }
 
