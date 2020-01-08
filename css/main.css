@@ -158,3 +158,8 @@ li {
 .border {
     border-width: 3px !important;
 }
+
+#changetext {
+    transition: all .5s;
+    transition-timing-function: ease-in-out;
+}

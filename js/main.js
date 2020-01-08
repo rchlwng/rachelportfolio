@@ -14,4 +14,20 @@ anime.timeline({autoplay: true})
     delay: (el, i) => 70*i
 });
 
+$('#work').hover(function() {
+  $('#changetext').text("a collection of my visual design work");
+}, function() {
+  $('#changetext').text("hello. i'm glad you're here.");
+});
 
+$('#casestudies').hover(function() {
+  $('#changetext').text("in-depth case studies examining the design process as a whole");
+}, function() {
+  $('#changetext').text("hello. i'm glad you're here.");
+});
+
+$('#insidemybrain').hover(function() {
+  $('#changetext').text("get to know me!");
+}, function() {
+  $('#changetext').text("hello. i'm glad you're here.");
+});
