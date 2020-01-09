@@ -40,12 +40,14 @@ h3 {
     letter-spacing: 0.15em;
     font-size: 1.5vw;
     height: 35%;
+    overflow: hidden;
 }
 
 .loves {
     display: block;
     float: left;
     font-size: 70%;
+    overflow: hidden;
 }
 
 h4 {
@@ -64,6 +66,7 @@ h4 {
 
 p {
     font-size: 90%;
+    overflow: hidden;
 }
 
 .flex-row {
