@@ -43,6 +43,10 @@ h3 {
     overflow: hidden;
 }
 
+#earworm {
+    overflow: visible;
+}
+
 .loves {
     display: block;
     float: left;
