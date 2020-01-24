@@ -34,7 +34,7 @@
 h3 {
     text-transform: uppercase;
     float: left;
-    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
     font-weight: bold;
     padding: 0;
     letter-spacing: 0.15em;
