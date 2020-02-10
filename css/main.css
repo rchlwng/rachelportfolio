@@ -160,6 +160,6 @@ li {
 }
 
 #changetext {
-    transition: all .5s;
+    transition: all 2s;
     transition-timing-function: ease-in-out;
 }
