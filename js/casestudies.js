@@ -10,3 +10,9 @@ $("#cs2").hover(function() {
 }, function() {
     $("#cs2image").css("opacity", "0");
 });
+
+$("#cs3").hover(function() {
+    $("#cs3image").css("opacity", ".6");
+}, function() {
+    $("#cs3image").css("opacity", "0");
+});
