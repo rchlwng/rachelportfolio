@@ -39,7 +39,7 @@ h3 {
     padding: 0;
     letter-spacing: 0.15em;
     font-size: 1.5vw;
-    height: 35%;
+    height: 40%;
     overflow: hidden;
 }
 
@@ -95,4 +95,8 @@ p {
 }
 .resume:hover:after {
     width: 0;
+}
+
+.upperrow {
+    padding-bottom: 2%;
 }
